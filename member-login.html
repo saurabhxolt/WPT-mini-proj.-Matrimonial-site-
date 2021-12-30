@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="row m-md-0" style=" background:  linear-gradient(
+            45deg,
+            rgba(196, 204, 191, 0.31),
+            rgba(214, 56, 16, 0.75)
+             );">
+        <div class="col-2 d-none d-md-block  p-3"></div>
+        <nav class="navbar navbar-expand-lg navbar-dark p-3 col-sm-12 col-md-8">
+            <div class="container-fluid ">
+                <img class="p-2" src="logo_icon.svg" alt="">
+                <a class="navbar-brand fs-1" href="home.html">Jodi.com</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+
+                    <ul class="navbar-nav  ">
+
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success" href="#"><img src="regi.svg" alt="">REGISTER
+                                FREE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-warning ms-3" href="home.html">Help<img src="24px.svg"
+                                    alt=""> </a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="col-2 d-none d-md-block me-0 p-3"></div>
+    </div>
+    <div class="row d-flex justify-content-center" style=" 
+        width: 100%;
+        background: url(banner1.jpg) no-repeat center fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: initial;
+        background-size: cover !important;
+        ">
+        <div class="col-2 mb-3"></div>
+        <div class="col-sm-12  col-md-4 ">
+            <form class="col-md-12 m-5 p-5 rounded-3" style="background:  linear-gradient(
+                45deg,
+                rgba(196, 204, 191, 0.31),
+                rgba(107, 27, 7, 0.75)
+                 );">
+                <div class="mb-3 row">
+                    <label for="staticEmail" class="col-sm-2 col-form-label">Email:</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="staticEmail" value="email@example.com">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Password:</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPassword">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <div class="col  d-flex justify-content-end" style="border-radius: 3px;">
+                        <input class="rounded-3" type="button" value="Login">
+                    </div>
+                    <div class="col  d-flex justify-content-center ">
+                        <label for="">OR</label>
+                    </div>
+                    <div class="col d-flex justify-content-start ">
+                        <input class="rounded-3" type="button" value="Login with OTP">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-2"></div>
+    </div>
+</body>
+
+</html>
